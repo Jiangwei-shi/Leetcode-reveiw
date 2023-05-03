@@ -22,8 +22,9 @@ Arrays.sort(nums);
 Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));  
 
 ## Map相关操作
- map.put(string.charAt(i), map.getOrDefault(string.charAt(i), 0) + 1);
-遍历全部
+ map.put(string.charAt(i), map.getOrDefault(string.charAt(i), 0) + 1);  
+ 
+遍历全部  
 for (Map.Entry<Integer, Integer> entry : map.entrySet()) {  
 	System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());  
 }
