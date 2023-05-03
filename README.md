@@ -11,7 +11,7 @@ Set<Integer> set = new HashSet<>();
 int[] number = new int[5];
 
 初始化 ArrayList  
-ArrayList<String> list = new ArrayList<String>();
+ArrayList<Integer> list = new ArrayList<Integer>();
 
 ## String相关操作
 String string  
