@@ -14,6 +14,8 @@ int[] number = new int[5];
 String string  
 1.string.toLowerCase()  
 2.string.replaceAll("[^A-Za-z0-9]","");  
+3.String s = String.valueOf(x); // Convert to String  
+4.string.toCharArray()
 
 ## Arrays相关操作
 int[] nums  
