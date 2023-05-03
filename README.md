@@ -10,6 +10,9 @@ Set<Integer> set = new HashSet<>();
 初始化 数组
 int[] number = new int[5];
 
+初始化 ArrayList  
+ArrayList<String> list = new ArrayList<String>();
+
 ## String相关操作
 String string  
 1.string.toLowerCase()  
