@@ -2,12 +2,12 @@
 
 ## 各种初始化
 初始化Hashmap
-
 Map<Character, Integer> map = new HashMap<>();
-map.put(c, counts.getOrDefault(c, 0) + 1)
+
+初始化 HashSet
+Set<Integer> set = new HashSet<>();
 
 初始化 数组
-
 int[] number = new int[5];
 
 ## String相关操作
