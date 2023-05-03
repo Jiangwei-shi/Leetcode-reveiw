@@ -15,6 +15,10 @@ String string
 1.string.toLowerCase()
 2.string.replaceAll("[^A-Za-z0-9]","");
 
+## Arrays相关操作
+int[] nums
+Arrays.sort(nums);
+
 ## Map相关操作
  map.put(string.charAt(i), map.getOrDefault(string.charAt(i), 0) + 1);
 遍历全部
