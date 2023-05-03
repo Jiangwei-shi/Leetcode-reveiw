@@ -26,17 +26,17 @@ Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
  
 遍历全部  
 for (Map.Entry<Integer, Integer> entry : map.entrySet()) {  
-	System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());  
+  System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());  
 }
 		
 遍历key
-for (Integer key : map.keySet()) {
-	System.out.println("Key = " + key);
+for (Integer key : map.keySet()) {  
+	System.out.println("Key = " + key);  
 }
 		
 遍历value
-for (Integer value : map.values()) {
-			System.out.println("Value = " + value);
+for (Integer value : map.values()) {  
+			System.out.println("Value = " + value);  
 		}
 
 ## method
