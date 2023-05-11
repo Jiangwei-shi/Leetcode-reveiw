@@ -1,7 +1,7 @@
-#Leetcode-reveiw
+# Leetcode-reveiw
 
 ## 各种初始化
-初始化Hashmap
+### 初始化Hashmap
 Map<Character, Integer> map = new HashMap<>();
 
 初始化 HashSet
