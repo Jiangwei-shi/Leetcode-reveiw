@@ -11,7 +11,17 @@ Set<Integer> set = new HashSet<>();
 int[] number = new int[5];
 
 初始化 ArrayList  
-ArrayList<Integer> list = new ArrayList<Integer>();
+// 创建一个空的ArrayList  
+ArrayList<String> myList = new ArrayList<>();  
+
+// 创建一个带有初始元素的ArrayList  
+ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));  
+
+// 或者逐个添加元素到ArrayList中  
+ArrayList<String> fruits = new ArrayList<>();  
+fruits.add("苹果");
+fruits.add("香蕉");
+fruits.add("橙子");
 
 ## String相关操作
 String string  
