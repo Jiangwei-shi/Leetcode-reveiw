@@ -35,19 +35,21 @@ ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
 
 ## String相关操作
 String string  
-1.string.toLowerCase()  
+大写转小写	
+1.string.toLowerCase() 
+去掉特殊字符
 2.string.replaceAll("[^A-Za-z0-9]","");  
+把别的类型转换成string	
 3.String s = String.valueOf(x); // Convert to String  
+把string转换成char数组	
 4.string.toCharArray()
 
 ## Arrays相关操作
-int[] nums  
+对数组从小到大排序  
 Arrays.sort(nums);  
 对二维数组进行排序  
 Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));  
-为了不用for loop查找Array。可以放入hashmap中查找  
-例子：  
-[two sum](https://leetcode.com/problems/two-sum/description/)	
+
 
 ## Map相关操作
  map.put(string.charAt(i), map.getOrDefault(string.charAt(i), 0) + 1);  
