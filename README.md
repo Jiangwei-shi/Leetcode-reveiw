@@ -45,6 +45,8 @@ int[] nums
 Arrays.sort(nums);  
 对二维数组进行排序  
 Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));  
+为了不用for loop查找Array。可以放入hashmap中查找  
+例子：  
 [two sum](https://leetcode.com/problems/two-sum/description/)	
 
 ## Map相关操作
