@@ -42,13 +42,17 @@ String string
 把别的类型转换成string	
 3.String s = String.valueOf(x); // Convert to String  
 把string转换成char数组	
-4.string.toCharArray()
+4.string.toCharArray()     
 
 ## Arrays相关操作
 对数组从小到大排序  
 Arrays.sort(nums);  
 对二维数组进行排序  
 Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));  
+	
+## Binary相关操作  
+100是2进制数，转化
+Integer.parseInt(100,2)
 
 
 ## Map相关操作
