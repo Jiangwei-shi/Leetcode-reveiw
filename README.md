@@ -1,4 +1,4 @@
-# Leetcode-reveiw
+# Leetcode-review
 
 ## 各种初始化
 ### 初始化 Hashmap
@@ -20,7 +20,12 @@ Stack<Character> stack = new Stack<>();
 ### 初始化 Queue
 **创建一个空的Queue**  
 Queue<String> queue = new LinkedList<>();
-	
+
+### 初始化 StringBuild  
+**创建一个空的StringBuilder**  
+StringBuilder string = new StringBuilder();  
+string.append("a");
+
 ### 初始化 linkedList	
 **创建一个空的linkedList**  
 LinkedList<Integer> linkedList = new LinkedList<>();  
@@ -33,16 +38,19 @@ ArrayList<String> myList = new ArrayList<>();
 **创建一个带有初始元素的ArrayList**  
 ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));  
 
-## String相关操作
-String string  
-大写转小写	
-1.string.toLowerCase() 
-去掉特殊字符
-2.string.replaceAll("[^A-Za-z0-9]","");  
-把别的类型转换成string	
-3.String s = String.valueOf(x); // Convert to String  
-把string转换成char数组	
-4.string.toCharArray()     
+## String相关操作  
+**大写转小写**  
+string.toLowerCase()  
+**去掉特殊字符**  
+string.replaceAll("[^A-Za-z0-9]","");   
+**把别的类型转换成string**  
+String s = String.valueOf(x); // Convert to String  
+**把string转换成char数组**  
+string.toCharArray()   
+**得到string中的指定字符**  
+string.charAt(i)  
+**得到string的大小**  
+string.length()    
 
 ## Arrays相关操作
 对数组从小到大排序  
