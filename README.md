@@ -3,23 +3,23 @@
 ## 各种初始化
 ### 初始化 Hashmap
 **创建一个空的Hashmap**  
-Map<Character, Integer> map = new HashMap<>();
+Map\<Character, Integer> map = new HashMap<>();
 
 ### 初始化 HashSet
 **创建一个空的HashSet**  
-Set<Integer> set = new HashSet<>();
+Set\<Integer> set = new HashSet<>();
 
 ### 初始化 Array
 **创建一个空的Array**  
 int[] number = new int[5];
 	
 ### 初始化 Stack
-**创建一个空的Stack**  	
-Stack<Character> stack = new Stack<>();
+**创建一个空的Stack**  
+Stack\<Character> stack = new Stack<>();
 	
 ### 初始化 Queue
 **创建一个空的Queue**  
-Queue<String> queue = new LinkedList<>();
+Queue\<String> queue = new LinkedList<>();
 
 ### 初始化 StringBuild  
 **创建一个空的StringBuilder**  
@@ -28,15 +28,15 @@ string.append("a");
 
 ### 初始化 linkedList	
 **创建一个空的linkedList**  
-LinkedList<Integer> linkedList = new LinkedList<>();  
+LinkedList\<Integer> linkedList = new LinkedList<>();  
 **创建一个带有初始元素的linkedList**  
-LinkedList<String> linkedList = new LinkedList<>(Arrays.asList("element1", "element2", "element3"));
+LinkedList\<String> linkedList = new LinkedList<>(Arrays.asList("element1", "element2", "element3"));
 
 ### 初始化 ArrayList  
 **创建一个空的ArrayList**  
-ArrayList<String> myList = new ArrayList<>();  
+ArrayList\<String> myList = new ArrayList<>();  
 **创建一个带有初始元素的ArrayList**  
-ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));  
+ArrayList\<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));  
 
 ## String相关操作  
 **大写转小写**  
